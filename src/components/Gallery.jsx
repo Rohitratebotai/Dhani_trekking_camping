@@ -2,16 +2,16 @@ import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearchPlus, faTimes } from "@fortawesome/free-solid-svg-icons";
 import "./Gallery.css";
-import img1 from '../assets/img_1.jpeg'
-import img2 from '../assets/img_2.jpeg'
+import img1 from '../assets/banner2.jpg'
+import img2 from '../assets/banner3.webp'
 import img3 from '../assets/img_3.jpeg'
 import img4 from '../assets/img_4.jpeg'
-import img5 from '../assets/img_5.jpeg'
+import img5 from '../assets/banner4.avif'
 import img6 from '../assets/img_6.jpeg'
-import img7 from '../assets/img_7.jpeg'
+import img7 from '../assets/banner6.jfif'
 import img8 from '../assets/img_8.jpeg'
 import img9 from '../assets/img_9.jpeg'
-import img10 from '../assets/img_10.jpeg'
+import img10 from '../assets/banner7.jpg'
 import img11 from '../assets/img_11.jpeg'
 import img12 from '../assets/img_12.jpeg'
 

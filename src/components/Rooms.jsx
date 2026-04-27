@@ -10,7 +10,7 @@ import {
 import { motion } from "framer-motion";
 import "./Rooms.css";
 import img1 from '../assets/img_3.jpeg';
-import img2 from '../assets/img_14.jpeg';
+import img2 from '../assets/banner7.jpg';
 import img3 from '../assets/img_7.jpeg';
 
 const Rooms = () => {
@@ -33,7 +33,7 @@ const Rooms = () => {
     {
       id: "FamilyTent",
       title: "5-Person Tent",
-      price: "₹1,500 / person",
+      price: "₹2,000 / person",
       image: img2,
       description:
         "Spacious tents perfect for families or groups, designed for a fun and shared camping experience.",
@@ -43,21 +43,6 @@ const Rooms = () => {
         { icon: faFire, label: "Bonfire" },
         { icon: faUtensils, label: "1 Meal Included" },
         { icon: faCampground, label: "Base Camping" },
-      ],
-    },
-    {
-      id: "CampOverview",
-      title: "Camping Experience",
-      price: "₹1,500 / person",
-      image: img3,
-      description:
-        "Enjoy a complete camping experience with bonfire nights, delicious meals, and a peaceful mountain environment.",
-      badge: null,
-      amenities: [
-        { icon: faMountain, label: "Mountain Views" },
-        { icon: faFire, label: "Bonfire Nights" },
-        { icon: faUtensils, label: "Meals Included" },
-        { icon: faCampground, label: "Outdoor Stay" },
       ],
     },
   ];

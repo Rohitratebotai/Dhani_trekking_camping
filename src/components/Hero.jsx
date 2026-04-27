@@ -11,10 +11,10 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { motion } from "framer-motion";
 import "./Hero.css";
-import img1 from '../assets/img_8.jpeg';
-import img2 from '../assets/img_14.jpeg';
-import img3 from '../assets/img_6.jpeg';
-import img4 from '../assets/img_7.jpeg';
+import img1 from '../assets/banner1.avif';
+import img2 from '../assets/banner2.jpg';
+import img3 from '../assets/banner3.webp';
+import img4 from '../assets/banner4.avif';
 
 const Hero = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -119,7 +119,7 @@ const Hero = () => {
             </button>
           </motion.div>
 
-          <motion.div
+          {/* <motion.div
             className="hero-features"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
@@ -137,7 +137,7 @@ const Hero = () => {
               <FontAwesomeIcon icon={faConciergeBell} />
               <span>24/7 Service</span>
             </div>
-          </motion.div>
+          </motion.div> */}
         </div>
       </div>
 
