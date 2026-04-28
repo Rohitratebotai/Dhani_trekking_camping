@@ -85,15 +85,15 @@ const Contact = () => {
             </div>
 
             <div className="social-links">
-              <a
+              {/* <a
                 href="https://www.facebook.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <FontAwesomeIcon icon={faFacebookF} />
-              </a>
+              </a> */}
               <a
-                href="https://www.instagram.com/"
+                href="https://www.instagram.com/pirtamchauhan5"
                 target="_blank"
                 rel="noopener noreferrer"
               >
