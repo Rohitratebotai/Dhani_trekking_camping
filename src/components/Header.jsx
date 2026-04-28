@@ -117,7 +117,7 @@ const Header = () => {
               <FontAwesomeIcon icon={faPhone} />
               <span>Call Now</span>
             </a>
-            <a
+            {/* <a
               href=""
               target="_blank"
               rel="noopener noreferrer"
@@ -126,7 +126,7 @@ const Header = () => {
                 <FontAwesomeIcon icon={faCalendarCheck} />
                 Book Now
               </button>
-            </a>
+            </a> */}
 
           </div>
 
